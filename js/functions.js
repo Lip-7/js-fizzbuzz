@@ -9,16 +9,16 @@ function squareGenerator(squaresNumber){
     const buzz = 5
     iterable = parseInt(squaresNumber);
     squareLocation = document.getElementById('result-container');
-    document.getElementById('result-container').innerHTML += `<div class="single-box d-flex align-items-center justify-content-center"><span><a href="./index.html">Restart</a></span></div>`
-    for (iterable; iterable > 0; iterable--) {
-        if (iterable % fizz == 0 && iterable % buzz == 0) {
+    for (let i = 1; i <= iterable; i++) {
+        if (i % fizz == 0 && i % buzz == 0) {
             document.getElementById('result-container').innerHTML += `<div class="single-box d-flex align-items-center justify-content-center lip-bg-buzzfizz"><span>FizzBuzz</span></div>`
-        }else if (iterable % buzz == 0){
+        }else if (i % buzz == 0){
             document.getElementById('result-container').innerHTML += `<div class="single-box d-flex align-items-center justify-content-center lip-bg-buzz"><span>Buzz</span></div>`
-        }else if (iterable % fizz == 0) {
+        }else if (i % fizz == 0) {
             document.getElementById('result-container').innerHTML += `<div class="single-box d-flex align-items-center justify-content-center lip-bg-fizz"><span>Fizz</span></div>`
         }else{
-            document.getElementById('result-container').innerHTML += `<div class="single-box d-flex align-items-center justify-content-center lip-bg-normal"><span>${iterable}</span></div>`
+            document.getElementById('result-container').innerHTML += `<div class="single-box d-flex align-items-center justify-content-center lip-bg-normal"><span>${i}</span></div>`
         }
     };
+    document.getElementById('result-container').innerHTML += `<div class="single-box d-flex align-items-center justify-content-center"><span><a href="./index.html">Restart</a></span></div>`
 };
