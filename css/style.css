@@ -37,20 +37,20 @@ body{
     border: none;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0);
-  }
-  
-  .play-button i {
+}
+
+.play-button i {
     transform: translate(-50%, -50%);
     font-size: 6rem;
     animation: pulse 2s infinite;
-  }
-  .play-icon {
+}
+.play-icon {
     background-image: linear-gradient(to top, var(--light-pink), var(--azzure));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  
-  @keyframes pulse {
+}
+
+@keyframes pulse {
     0% {
       transform: scale(1);
     }
@@ -60,7 +60,7 @@ body{
     100% {
       transform: scale(1);
     }
-  }
+}
 /* /play button */
 /* input section */
 #squareCount-display input{
