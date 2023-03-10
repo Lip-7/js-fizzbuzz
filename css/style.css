@@ -56,3 +56,38 @@ body{
     }
   }
 /* /play button */
+
+/* box section */
+.single-box{
+    width: 5vw;
+    height: 5vw;
+    border: 2px solid;
+    border-image: linear-gradient(to top, var(--light-pink), var(--azzure)) 1;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+}
+.single-box span{
+    width: 100%;
+}
+.single-box a{
+    text-decoration: none;
+    color: white
+}
+.lip-bg-normal{
+    background-color: var(--dark-color);
+}
+.lip-bg-fizz{
+    background-color: var(--dark-ping);
+}
+.lip-bg-buzz{
+    background-color: var(--azzure);
+}
+.lip-bg-buzzfizz{
+    background-color: var(--fuchsia);
+}
+
+/* /box section */
+
+
+
