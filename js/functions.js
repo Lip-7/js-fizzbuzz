@@ -3,7 +3,7 @@ function switchVisibility(value1,value2){
     const content2 = document.getElementById(value2);
     content1.classList.add('d-none');
     content2.classList.remove('d-none');
-}
+};
 function switchVisibility2(value1,value2){
     const content1 = document.getElementById(value1);
     const content2 = document.getElementById(value2);
@@ -12,11 +12,17 @@ function switchVisibility2(value1,value2){
     setTimeout(() => {
         content2.style.opacity = 1;
       }, 10);
+};
+
+function squareGeneratorLuncher(){
+    squaresNumber = document.getElementById('squareCount').value
+    switchVisibility2('squareCount-display', 'result-wrap')
+    squareGenerator(squaresNumber)
 }
 
 function squareGenerator(squaresNumber){
-    const fizz = 3
-    const buzz = 5
+    const fizz = 3;
+    const buzz = 5;
     iterable = parseInt(squaresNumber);
     squareLocation = document.getElementById('result-container');
     for (let i = 1; i <= iterable; i++) {
@@ -39,5 +45,5 @@ function squareGenerator(squaresNumber){
             squareLocation.appendChild(newSquare);
         }, i * 20);
     };
-    document.getElementById('result-container').innerHTML += `<div class="single-box d-flex align-items-center justify-content-center order-1"><span><a href="./index.html">Restart</a></span></div>`
+    document.getElementById('result-container').innerHTML += `<div class="single-box d-flex align-items-center justify-content-center order-1"><span><a href="./index.html">Restart</a></span></div>`;
 };
