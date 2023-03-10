@@ -40,8 +40,12 @@ body{
   .play-button i {
     transform: translate(-50%, -50%);
     font-size: 6rem;
-    color: var(--fuchsia);
     animation: pulse 2s infinite;
+  }
+  .play-icon {
+    background-image: linear-gradient(to top, var(--light-pink), var(--azzure));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   @keyframes pulse {
