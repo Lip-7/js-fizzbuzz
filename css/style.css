@@ -82,13 +82,13 @@ input[type=number] {
 
 /* box section */
 .single-box{
-    width: 5vw;
-    height: 5vw;
+    width: 70px;
+    height: 70px;
     border: 2px solid;
     border-image: linear-gradient(to top, var(--light-pink), var(--azzure)) 1;
     color: white;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 .single-box span{
     width: 100%;
