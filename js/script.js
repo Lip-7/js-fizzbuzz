@@ -6,6 +6,6 @@ var squaresNumber = 0
 document.getElementById('btn-start').addEventListener('click', function(){switchVisibility('btn-start','squareCount-display')})
 document.getElementById('btnGenerate').addEventListener('click', function(){
     squaresNumber = document.getElementById('squareCount').value
-    switchVisibility('squareCount-display', 'result-wrap')
+    switchVisibility2('squareCount-display', 'result-wrap')
     squareGenerator(squaresNumber)
 })
