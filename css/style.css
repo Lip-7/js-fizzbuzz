@@ -86,7 +86,7 @@ input[type=number] {
     width: 70px;
     height: 70px;
     border: 2px solid;
-    border-image: linear-gradient(to top, var(--light-pink), var(--azzure)) 1;
+    border-image: linear-gradient(to top, var(--dark-ping), var(--azzure)) 1;
     color: white;
     text-align: center;
     font-size: 1rem;
@@ -108,7 +108,7 @@ input[type=number] {
     background-color: var(--azzure);
 }
 .lip-bg-buzzfizz{
-    background-color: var(--fuchsia);
+    background-image: linear-gradient(to top, var(--dark-ping), var(--azzure));
 }
 .result-box{
     display: none;
