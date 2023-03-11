@@ -78,7 +78,10 @@ input[type=number] {
     -webkit-appearance: none;
     margin: 0;
 }
-
+#btnGenerate{
+    opacity: 0;
+    transition: all 2s ease-in-out;
+}
 /* input /section */
 
 /* box section */
