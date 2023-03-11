@@ -8,9 +8,9 @@ numberInput.addEventListener("input", function() {
     const button = document.getElementById("btnGenerate");
     if (parseInt(numberInput.value) > 9) {
       button.style.opacity = '0'
-      button.style.opacity = '1'
+      button.style.opacity = '0.7'
     } else {
-      button.style.opacity = '1'
+      button.style.opacity = '0.7'
       button.style.opacity = '0'
     }
   });

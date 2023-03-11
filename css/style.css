@@ -81,6 +81,14 @@ input[type=number] {
 #btnGenerate{
     opacity: 0;
     transition: all 2s ease-in-out;
+    background-image: url(../img/Cloud-PNG-Photos2.png);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    font-weight: 600;
 }
 /* input /section */
 
